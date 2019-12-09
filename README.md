@@ -14,7 +14,10 @@ ipcam_sdk 旨在为嵌入式摄像头提供 rtmp 推流功能，功能特性如�
 ## 2. 代码编译
 
 - 首先安装 autoreconf 和 Libtool 工具
+  sudo apt-get install autoconf
+  sudo apt-get install libtool
 - 配置 Makefile 文件的 `CROSS_PREFIX` ，给出交叉编译工具链
+  if use gcc by default;please #CROSS_PREFXI
 - 在根目录执行 make 命令，编译成功后，静态库文件会位于 lib 目录下
 
 ## 3. API 文档和用法
